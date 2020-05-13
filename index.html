@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Bootstrap bài 3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+ 	
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+ 	<link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+	
+	<link rel="stylesheet" href="animate.css">
+	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+	<link rel="stylesheet" href="dragdealer.css">
+ 	<link rel="stylesheet" href="main_ICD.css">
+
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<script type="text/javascript" src="dragdealer.js"></script>
+ 	<script type="text/javascript" src="main_ICD.js"></script>
+ 	<script src="wow.js"></script>
+ 	
+</head>
+
+<body >
+	<div class="menutop">
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<div class="logocom wow bounceInLeft" data-wow-delay=0.5s>
+						<a class="navbar-brand" href="#">ICDベトナム</a>
+						<img src="img/logo.png" alt="">
+					</div>
+				</div>
+				
+					<ul class="nav navbar-nav navbar-right wow bounceInRight" data-wow-delay=0.3s>
+						<li><a href="#">ホーム</a></li>
+						<li><a href="#">企業情報</a></li>
+						<li><a href="#">サービス内容</a></li>
+						<li><a href="#">お問い合わせ</a></li>					
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	</div> <!-- kết thúc phần menu trên cùng -->
+	
+
+	<div class="menucuonngang">
+		<div id="carousel-id" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+				<li data-target="#carousel-id" data-slide-to="2" class=""></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item">
+					<img src="img/bg1.jpg">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1 class="text-color-change wow bounceInLeft" data-wow-delay=0.3s>ICD VIETNAM</h1>
+							<p class="logoduoi wow bounceInRight" data-wow-delay=0.5s>最高の Website ソリューションをご提供します。</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/bg2.jpg" >
+					<div class="container">
+						<div class="carousel-caption">
+							<p class="wow bounceInLeft" data-wow-delay=0.3s >私たちの強み</p>
+							<h1 class="text-color-change wow zoomIn" data-wow-delay=0.5s>製品のクオリティ</h1>
+							<p class="wow bounceInRight" data-wow-delay=0.3s>専門家として、お客様の希望は徹底的に理解しています。</p>
+						</div>
+					</div>
+				</div>
+				<div class="item active">
+					<img src="img/bg3.jpg">
+					<div class="container">
+						<div class="carousel-caption">
+							<p class="wow bounceInLeft" data-wow-delay=0.3s>なぜ、ICD VIETNAM？</p>
+							<h1 class="text-color-change wow zoomIn" data-wow-delay=0.7s>私たちはお客様の期待に必ず答えます。</h1>
+							<p class="wow bounceInRight" data-wow-delay=0.5s>お客様のブランド拡大や構築をお手伝いいたします。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+	</div> <!-- kết thúc thanh cuộn ngang  -->
+
+<div class="dichvu">
+	<div class="container">
+    <h1 class="logoduoi wow zoomIn" data-wow-delay=0.2s>私たちにできること</h1>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 ">
+            <div class="service-box wow bounceInLeft" data-wow-delay=0.3s>
+                <div class="service-icon yellow">
+                    <div class="front-content">
+                        <img src="img/wu_nbone.png" alt="">
+                        <h3>経験豊富なチーム</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>経験豊富なチーム</h3>
+                    <p>約4年、Webサイトのデザインを行い、様々なご要望にお答えすることで、お客様からの厚い信頼を獲得して参りました。経験豊富なチームがお客様のご要望にお答えします。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 ">
+            <div class="service-box wow bounceInUp" data-wow-delay=0.3s>
+                <div class="service-icon orange">
+                    <div class="front-content">
+                      <img src="img/wu_solution.png" alt="">
+                        <h3>クリエイティブソリューション</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>クリエイティブソリューション</h3>
+                    <p>まずはお客様のアイデアを教えてください。そのアイデアを元に、Webサイトを制作します。きっとお客様のブランド価値を高め、使い心地の良いインターフェースを作り上げ、ユーザーに感動を与えるでしょう。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-box wow bounceInRight" data-wow-delay=0.3s>
+                <div class="service-icon red">
+                    <div class="front-content">
+                        <img src="img/wu_database.png" alt="">
+                        <h3>最新のテクノロジー</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>最新のテクノロジー</h3>
+                    <p>最先端の技術が装備されていると、素晴らしいと感じませんか？ 最適化された検索ツールのデザインが、お客様のWebサイトをサポートし、多くのユーザーが訪問するWebサイトになるでしょう。 異なるデバイスからのアクセスにレスポンシブに対応し、Webサイトへのアクセス数を増加させます。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-box wow bounceInLeft" data-wow-delay=0.4s>
+                <div class="service-icon grey">
+                    <div class="front-content">
+                        <img src="img/wu_tools.png" alt="">
+                        <h3>継続的改善</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>継続的改善</h3>
+                    <p>IT業界は日々進化しています。私たちもその進化とともに、常に最先端の技術を取り入れ、日々成長・進化しています。私たちの強みは、熱意、情熱を持ってにグローバルな商品と時代を創ることです。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-box wow bounceInUp " data-wow-delay=0.4s>
+                <div class="service-icon duong">
+                    <div class="front-content">
+                        <img src="img/wu_shield.png" alt="">
+                        <h3>Webセキュリティ</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>Webセキュリティ	</h3>
+                    <p>インターネットセキュリティーは、世界中で大きな問題となっています。毎日あらゆるWebサイトがウィルスによって攻撃されています。 Webサイトのセキュリティーを構築し、守ることは私たちにとって優先すべき重要なミッションです。 お客様のWebサイトのセキュリティ対策は万全ですか？</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-box wow bounceInRight" data-wow-delay=0.4s>
+                <div class="service-icon la">
+                    <div class="front-content">
+                        <img src="img/wu_like.png" alt="">
+                        <h3>ブランド拡大をお手伝い</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>ブランド拡大をお手伝い</h3>
+                    <p>Webサイトは会社の顔です。 完成したお客様のWebサイトを「これは私たちのWebサイト」と自信を持って思っていただけるよう、私たちも精一杯サポートさせていただきます。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Kết thúc dịch vụ của chúng tôi  -->
+
+		<div class="whoarewe">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<img src="img/nd_1.JPG" alt="who_we_are" class="anhbu">
+					<div class="hinhxam"></div>
+					<div class="gradient"></div>
+					<div class="hinhvuong"></div>
+					<div class="chuto">私たちは誰ですか</div>
+					<div class="chunho">
+						私たちはIT 、そして特にWebサイトのデザインが好きです！
+						<br>
+						<br>	
+						多くの人が日本のユニークな文化、生活スタイル、精神また働き方やサービス品質などに憧れています。
+						私たちICDベトナムも、東京にある本社の考え方を受け継ぎ、お客様の期待を超える製品をご提供するために、常に全力で業務を行っています。
+						<br>
+						<br>	
+						私たちのミッションは国内外問わず、一番良いWebサービスを提供することです。 ぜひICDベトナムに、より良いサイト作りのお手伝いをさせていただけませんか。
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Kết thúc who we are -->
+
+	<div class="box">
+	    <div class="container">
+	     	<div class="row">
+
+	     			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"  >
+	     				<p class="text-box logoduoi wow zoomIn" data-wow-delay=0.2s>福利厚生</p>
+	     			</div>
+				 
+				    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="box-part text-center wow bounceInUp" data-wow-delay=0.3s>
+	                        <img src="img/box_gate.png" alt="" class="fa">     
+							<div class="title">
+								<h4>日本語授業</h4>
+							</div>      
+							<div class="text">
+								<span>会社のメンバーが日本語教育するため、毎週２回日本語クラスを行います。</span>
+							</div>  
+						 </div>
+					</div>	 
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="box-part text-center wow bounceInUp" data-wow-delay=0.4s>     
+	                        <img src="img/box_cake.png" alt="" class="fa">     
+							<div class="title">
+								<h4>誕生日</h4>
+							</div>      
+							<div class="text">
+								<span>毎月、ケーキを用事して、メンバーの誕生日を行います。</span>
+							</div>  
+						 </div>
+					</div>	 
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="box-part text-center wow bounceInUp" data-wow-delay=0.5s>       
+	                        <img src="img/box_building.png" alt="" class="fa">     
+							<div class="title">
+								<h4>チームビルディング</h4>
+							</div>      
+							<div class="text">
+								<span>会社でのメンバーがもっとコミュニケーションできるため、毎月チームビルディングを行います。</span>
+							</div>  
+						 </div>
+					</div>	 
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="box-part text-center wow bounceInUp" data-wow-delay=0.6s>        
+	                        <img src="img/box_luch.png" alt="" class="fa">     
+							<div class="title">
+								<h4>昼食代</h4>
+							</div>      
+							<div class="text">
+								<span>ICDでは毎日、固定の昼食代を提供します。</span>
+							</div>  
+						 </div>
+					</div>	 
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="box-part text-center wow bounceInUp" data-wow-delay=0.7s>       
+	                        <img src="img/box_car.png" alt="" class="fa">     
+							<div class="title">
+								<h4>駐車代金</h4>
+							</div>      
+							<div class="text">
+								<span>昼食代以外、毎月駐車代金も提供します。</span>
+							</div>  
+						 </div>
+					</div>	 
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="box-part text-center wow bounceInUp" data-wow-delay=0.8s>      
+	                        <img src="img/box_trip.png" alt="" class="fa">     
+							<div class="title">
+								<h4>会社旅行</h4>
+							</div>      
+							<div class="text">
+								<span>毎年、会社旅行を行います。</span>
+							</div>  
+						 </div>
+					</div>	 
+
+
+			</div>	
+		</div>	
+	</div> <!-- kết thúc box -->
+
+	<div class="even hinhnenden">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<h2 class="textto wow zoomIn" data-wow-delay=0.2s>#Party</h2>
+							<p class="textnho wow bounceInLeft" data-wow-delay=0.2s>仕事の効率をアップできるため、毎月会社はいろいろなイベントを行って、皆はストレスを下がって、会社で皆が楽しみにコミュニケーションをもっとできるようになります。</p>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="listevent">
+							<p class="news_event wow bounceInRight" data-wow-delay=0.2s>ニュース & エベント</p>
+							<ul>
+								<li i class="far fa-star wow zoomIn" data-wow-delay=0.3s><a href="#">国際女性の日</a></li>
+								<li i class="far fa-star wow zoomIn" data-wow-delay=0.3s><a href="#">ハロウィーンパーティー</a></li>
+								<li i class="far fa-star wow zoomIn" data-wow-delay=0.3s><a href="#">７月メンバーの誕生日</a></li>
+								<li i class="far fa-star wow zoomIn" data-wow-delay=0.3s><a href="#">ICDベトナム、1周年</a></li>
+								<li i class="far fa-star wow zoomIn" data-wow-delay=0.3s><a href="#">ベトナム中秋節</a></li>
+							</ul>
+							<button type="button" class="btn btn-default wow zoomIn" data-wow-delay=0.4s>もっと見る</button>
+						</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="hinhscroll" class="dragdealer">
+		<img class="handle" src="img/ghepdai.jpg" alt="">
+	</div> <!-- kết thúc scroll -->
+	
+
+	<div class="ourteam">
+		<div class="container">
+            <h3 class="text-center logoduoi wow zoomIn" data-wow-delay=0.1s >私たちのチーム</h3>
+            <div class="row mt-40">
+                <div class=" col-md-4 col-sm-6">
+                    <div class="box1 wow bounceInLeft" data-wow-delay=0.3s>
+                        <img src="img/duy.jpg" alt="">
+                        <h3 class="title">グエン・クック・ドゥーイ</br>
+						<p><span>バックエンドリーダー</span></p>				
+						</h3>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-sm-6">
+                    <div class="box1 wow bounceInUp" data-wow-delay=0.3s>
+                        <img src="img/tuyen.jpg">
+                        <h3 class="title">グエン・ティ・タン・トゥイエン</br>
+						<p><span>総務部長</span></p>				
+						</h3>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-sm-6">
+                    <div class="box1 wow bounceInRight" data-wow-delay=0.3s>
+                        <img src="img/chau.jpg" alt="">
+                        <h3 class="title">トラン・ティ・マイ・チャウ</br>
+						<p><span>フロントエンドリード</span></p>				
+						</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt-40">
+                <div class=" col-md-4 col-sm-6">
+                    <div class="box1 wow bounceInLeft" data-wow-delay=0.4s>
+                        <img src="img/tuanlay.jpg" alt="">
+                        <h3 class="title">レ・ホン・トゥアン</br>
+						<p><span>デベロッパー</span></p>				
+						</h3>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-sm-6">
+                    <div class="box1 wow bounceInUp" data-wow-delay=0.4s>
+                        <img src="img/hon.jpg" alt="" class="img-thumbn">
+                        <h3 class="title">チャン・ヤー・ホン</br>
+						<p><span>IT コミュニケーター</span></p>				
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="box1 wow bounceInRight" data-wow-delay=0.4s>
+                        <img src="img/Tran.jpg" alt="">
+                        <h3 class="title">トラン・グゴック・チャン</br>
+						<p><span>コーダー</span></p>				
+						</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div> <!-- kết thúc ourteam -->
+
+
+	<div class="contactus">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contact-den">
+					<h2 class="contact-testbig text-center wow bounceInUp" data-wow-delay=0.3s>お問い合わせ</h2>
+					<p class="contact-testsmaill text-center wow bounceInUp" data-wow-delay=0.4s>下記のフォームでEメールをお送りください。できるだけ早くお返事させていただきます</p>
+				</div>
+				
+				
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-md-push-2 contact-img">
+						<img src="img/contact.jpg" alt="" class="img-responsive wow bounceInLeft" data-wow-delay=0.5s">
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-md-push-2 contact-form">
+					    <div class="form-area wow bounceInRight" data-wow-delay=0.5s>  
+					        <form role="form">
+					        <br style="clear:both">
+					    				<div class="form-group">
+											<input type="text" class="form-control" id="name" name="name" placeholder="あなたの名前" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="email" name="email" placeholder="あなたのメールアドレス" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="mobile" name="mobile" placeholder="お問い合わせ電話番号" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="subject" name="subject" placeholder="タイトル" required>
+										</div>
+					                    <div class="form-group">
+					                    <textarea class="form-control" type="textarea" id="message" placeholder="ここにコメントを書く" maxlength="140" rows="7"></textarea>
+					                        <span class="help-block"><p id="characterLeft" class="help-block ">最大140記号を入力してください。</p></span>                    
+					                    </div>
+					            
+					        <button type="button" id="submit" name="submit" class="btn btn-primary">確認する</button>
+					        </form>
+					    </div>
+					</div>
+			</div>
+		</div>
+	</div> <!-- kết thúc contactus -->
+
+	 <footer class="nb-footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="about">
+	<img src="img/logo.png" class="text-center wow bounceIn" data-wow-delay=0.8s alt="">
+	<p class="wow bounceIn" data-wow-delay=0.8s>日本にある親会社と一緒に、私たちは高品質のウェブサイトを専門としています。 ウェブサイトのデザインと開発が必要な場合は、以下の連絡先に連絡してください。</p>
+
+	<div class="social-media wow tada" data-wow-delay=0.5s>
+		<ul class="list-inline">
+			<li><a href="http://www.nextbootstrap.com/" title=""><i class="fab fa-facebook-f"></i></a></li>
+			<li><a href="http://www.nextbootstrap.com/" title=""><i class="fab fa-twitter"></i></a></li>
+			<li><a href="http://www.nextbootstrap.com/" title=""><i class="fab fa-google-plus-g"></i></a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+	<div class="ft_contact_info wow bounceIn" data-wow-delay=0.5s>
+		<div class="col-md-4 col-sm-6 ">
+		<div class="footer-info-single">
+			<img src="img/ft_building.png" alt="">
+			<p>277-279 Ly Tu Trong <br> F5 VVA Office Tower HCMC </p>
+		</div>
+		</div>
+
+		<div class="col-md-4 col-sm-6">
+		<div class="footer-info-single">
+			<img src="img/ft_phone.png" alt="" class="">
+			<p>+84 28 3823 1227</p>
+		</div>
+		</div>
+
+		<div class="col-md-4 col-sm-6">
+		<div class="footer-info-single">
+			<img src="img/ft_mail.png" alt="" class="">
+			<p>info@icd-vn.com</p>
+		</div>
+		</div>
+	</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 maps">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.513416360237!2d106.69227711533419!3d10.771933862220832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3ea24c9967%3A0xb46349aa08642374!2zMjc3IEzDvSBU4buxIFRy4buNbmcsIFBoxrDhu51uZyBC4bq_biBUaMOgbmgsIFF14bqtbiAxLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1539163893851" width="1100" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+</div>
+</div>
+
+<section class="copyright">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+	<p>Copyright © 2018. ICD VietNam Company.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+</footer>
+
+</body>
+</html>
